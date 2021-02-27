@@ -1,0 +1,128 @@
+Madagascar 0.99999 25/02/2015 09:46:27 amd64 1-core (no VSIDS)
+Options: file:domain-hanoi.pddl file:hanoi5.pddl
+Domain: hanoi
+Problem: hanoi-5
+Parser: 200 ground actions and 78 state variables
+Invariants: 0 1 2 3 4 5  0.00 secs
+Goal: conjunctive
+Simplified: 110 ground actions and 32 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.00 secs (max SCC size 1)
+Plan type: E-step
+				Allocated 32 MB permanent (total 122 MB)
+Horizon 0: 32 variables
+0 UNSAT (0 decisions 0 conflicts)
+Horizon 5: 742 variables
+5 UNSAT (0 decisions 0 conflicts)
+Horizon 10: 1452 variables
+				Allocated 32 MB (total 383 MB)
+Horizon 15: 2162 variables
+Horizon 20: 2872 variables
+Horizon 25: 3582 variables
+Horizon 30: 4292 variables
+Horizon 35: 5002 variables
+Horizon 40: 5712 variables
+Horizon 45: 6422 variables
+Horizon 50: 7132 variables
+Horizon 55: 7842 variables
+Horizon 60: 8552 variables
+Horizon 65: 9262 variables
+10 UNSAT (807 decisions 662 conflicts)
+Horizon 70: 9972 variables
+SAT (318 decisions 109 conflicts)
+PLAN FOUND: 65 steps
+0 : (move d1 d2 peg2)
+1 : (move d2 d3 peg3)
+2 : (move d1 peg2 d2)
+3 : (move d3 d4 peg2)
+4 : (move d3 peg2 d4)
+5 : (move d1 d2 d3)
+6 : (move d2 peg3 peg2)
+7 : (move d1 d3 d2)
+8 : (move d1 d2 peg3)
+9 : (move d2 peg2 d3)
+10 : (move d1 peg3 d2)
+11 : (move d1 d2 peg3)
+12 : (move d2 d3 peg2)
+13 : (move d1 peg3 d2)
+14 : (move d1 d2 peg3)
+15 : (move d2 peg2 d3)
+16 : (move d1 peg3 d2)
+17 : (move d1 d2 peg2)
+18 : (move d2 d3 peg3)
+19 : (move d1 peg2 d2)
+20 : (move d3 d4 peg2)
+21 : (move d1 d2 d3)
+22 : (move d2 peg3 d4)
+23 : (move d1 d3 d2)
+24 : (move d3 peg2 peg3)
+25 : (move d1 d2 d3)
+26 : (move d2 d4 peg2)
+27 : (move d1 d3 d2)
+28 : (move d1 d2 d4)
+29 : (move d2 peg2 d3)
+30 : (move d1 d4 d2)
+31 : (move d1 d2 d4)
+32 : (move d2 d3 peg2)
+33 : (move d1 d4 d2)
+34 : (move d1 d2 d4)
+35 : (move d2 peg2 d3)
+36 : (move d1 d4 d2)
+37 : (move d4 d5 peg2)
+38 : (move d1 d2 d4)
+39 : (move d2 d3 d5)
+40 : (move d1 d4 d2)
+41 : (move d3 peg3 d4)
+42 : (move d1 d2 d3)
+43 : (move d2 d5 peg3)
+44 : (move d1 d3 d2)
+45 : (move d1 d2 d5)
+46 : (move d2 peg3 d3)
+47 : (move d1 d5 d2)
+48 : (move d5 peg1 peg3)
+49 : (move d1 d2 d5)
+50 : (move d2 d3 peg1)
+51 : (move d1 d5 d2)
+52 : (move d1 d2 d5)
+53 : (move d2 peg1 d3)
+54 : (move d1 d5 d2)
+55 : (move d1 d2 peg1)
+56 : (move d2 d3 d5)
+57 : (move d1 peg1 d2)
+58 : (move d3 d4 peg1)
+59 : (move d1 d2 d3)
+60 : (move d2 d5 d4)
+61 : (move d1 d3 d2)
+62 : (move d1 d2 d5)
+63 : (move d2 d4 d3)
+64 : (move d1 d5 d2)
+65 : (move d1 d2 d5)
+66 : (move d1 d5 d2)
+67 : (move d4 peg2 d5)
+68 : (move d1 d2 d4)
+69 : (move d2 d3 peg2)
+70 : (move d1 d4 d2)
+71 : (move d3 peg1 d4)
+72 : (move d1 d2 d3)
+73 : (move d1 d3 peg1)
+74 : (move d2 peg2 d3)
+75 : (move d1 peg1 d2)
+76 actions in the plan.
+total time 0.10 preprocess 0.00 
+total size 1.344 GB
+max. learned clause length 634
+t val conflicts decisions
+0 0 0 0
+5 0 0 0
+10 0 662 807
+15 -1 723 911
+20 -1 662 978
+25 -1 603 888
+30 -1 542 915
+35 -1 483 903
+40 -1 421 872
+45 -1 365 784
+50 -1 305 674
+55 -1 240 486
+60 -1 183 444
+65 1 109 318

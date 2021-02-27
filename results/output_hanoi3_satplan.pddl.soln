@@ -1,0 +1,10 @@
+; Time 0.02
+; ParsingTime    0.00
+; MakeSpan 7
+0: (MOVE D1 D2 PEG3) [1]
+1: (MOVE D2 D3 PEG2) [1]
+2: (MOVE D1 PEG3 D2) [1]
+3: (MOVE D3 PEG1 PEG3) [1]
+4: (MOVE D1 D2 PEG1) [1]
+5: (MOVE D2 PEG2 D3) [1]
+6: (MOVE D1 PEG1 D2) [1]

@@ -1,0 +1,37 @@
+
+
+python pddl_generator.py 3 > hanoi3.pddl
+./blackbox -o domain-hanoi.pddl -f hanoi3.pddl > output_hanoi3_blackbox.txt
+./satplan -domain domain-hanoi.pddl -problem hanoi3.pddl > output_hanoi3_satplan.txt
+./M domain-hanoi.pddl hanoi3.pddl -Q > output_hanoi3_M.txt
+./Mp domain-hanoi.pddl hanoi3.pddl -Q > output_hanoi3_Mp.txt
+./MpC domain-hanoi.pddl hanoi3.pddl -Q > output_hanoi3_MpC.txt
+
+python pddl_generator.py 4 > hanoi4.pddl
+./blackbox -o domain-hanoi.pddl -f hanoi4.pddl > output_hanoi4_blackbox.txt
+./satplan -domain domain-hanoi.pddl -problem hanoi4.pddl > output_hanoi4_satplan.txt
+./M domain-hanoi.pddl hanoi4.pddl -Q > output_hanoi4_M.txt
+./Mp domain-hanoi.pddl hanoi4.pddl -Q > output_hanoi4_Mp.txt
+./MpC domain-hanoi.pddl hanoi4.pddl -Q > output_hanoi4_MpC.txt
+
+python pddl_generator.py 5 > hanoi5.pddl
+./M domain-hanoi.pddl hanoi5.pddl -Q > output_hanoi5_M.txt
+./Mp domain-hanoi.pddl hanoi5.pddl -Q > output_hanoi5_Mp.txt
+./MpC domain-hanoi.pddl hanoi5.pddl -Q > output_hanoi5_MpC.txt
+./satplan -domain domain-hanoi.pddl -problem hanoi5.pddl > output_hanoi5_satplan.txt
+./blackbox -o domain-hanoi.pddl -f hanoi5.pddl > output_hanoi5_blackbox.txt
+
+python pddl_generator.py 6 > hanoi6.pddl
+./M domain-hanoi.pddl hanoi6.pddl -Q > output_hanoi6_M.txt
+./Mp domain-hanoi.pddl hanoi6.pddl -Q > output_hanoi6_Mp.txt
+./MpC domain-hanoi.pddl hanoi6.pddl -Q > output_hanoi6_MpC.txt
+./satplan -domain domain-hanoi.pddl -problem hanoi6.pddl > output_hanoi6_satplan.txt
+./blackbox -o domain-hanoi.pddl -f hanoi6.pddl > output_hanoi6_blackbox.txt
+
+
+python pddl_generator.py 7 > hanoi7.pddl
+./M domain-hanoi.pddl hanoi7.pddl -Q > output_hanoi7_M.txt
+./Mp domain-hanoi.pddl hanoi7.pddl -Q > output_hanoi7_Mp.txt
+./MpC domain-hanoi.pddl hanoi7.pddl -Q > output_hanoi7_MpC.txt
+
+

@@ -1,0 +1,341 @@
+Madagascar 0.99999 25/02/2015 09:46:27 amd64 1-core (no VSIDS)
+Options: file:domain-hanoi.pddl file:hanoi6.pddl
+Domain: hanoi
+Problem: hanoi-6
+Parser: 297 ground actions and 102 state variables
+Invariants: 0 1 2 3 4 5 6  0.00 secs
+Goal: conjunctive
+Simplified: 166 ground actions and 41 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.00 secs (max SCC size 1)
+Plan type: E-step
+				Allocated 32 MB permanent (total 122 MB)
+Horizon 0: 41 variables
+0 UNSAT (0 decisions 0 conflicts)
+Horizon 5: 1076 variables
+5 UNSAT (0 decisions 0 conflicts)
+Horizon 10: 2111 variables
+				Allocated 32 MB (total 383 MB)
+Horizon 15: 3146 variables
+Horizon 20: 4181 variables
+Horizon 25: 5216 variables
+Horizon 30: 6251 variables
+Horizon 35: 7286 variables
+Horizon 40: 8321 variables
+10 UNSAT (499 decisions 413 conflicts)
+Horizon 45: 9356 variables
+Horizon 50: 10391 variables
+Horizon 55: 11426 variables
+Horizon 60: 12461 variables
+Horizon 65: 13496 variables
+Horizon 70: 14531 variables
+Horizon 75: 15566 variables
+Horizon 80: 16601 variables
+Horizon 85: 17636 variables
+Horizon 90: 18671 variables
+Horizon 95: 19706 variables
+Horizon 100: 20741 variables
+Horizon 105: 21776 variables
+Horizon 110: 22811 variables
+						GC: 8.40 MB
+15 UNSAT (4239 decisions 3221 conflicts)
+Horizon 115: 23846 variables
+						GC: 11.67 MB
+						GC: 12.14 MB
+						GC: 13.37 MB
+						GC: 14.26 MB
+						GC: 23.66 MB
+						GC: 16.88 MB
+						GC: 17.20 MB
+						GC: 17.26 MB
+						GC: 17.93 MB
+						GC: 18.38 MB
+20 UNSAT (37967 decisions 28655 conflicts)
+Horizon 120: 24881 variables
+						GC: 18.93 MB
+						GC: 18.75 MB
+						GC: 19.84 MB
+						GC: 20.54 MB
+						GC: 20.87 MB
+						GC: 22.35 MB
+						GC: 21.90 MB
+						GC: 23.27 MB
+						GC: 23.52 MB
+				Allocated 32 MB (total 2113 MB)
+						GC: 23.55 MB
+						GC: 24.69 MB
+						GC: 25.59 MB
+						GC: 25.89 MB
+25 UNSAT (95561 decisions 68788 conflicts)
+Horizon 125: 25916 variables
+						GC: 26.70 MB
+						GC: 25.16 MB
+						GC: 24.94 MB
+						GC: 26.87 MB
+						GC: 27.15 MB
+						GC: 27.64 MB
+						GC: 28.01 MB
+						GC: 29.24 MB
+						GC: 28.73 MB
+						GC: 29.63 MB
+						GC: 30.76 MB
+						GC: 31.88 MB
+						GC: 32.23 MB
+						GC: 31.58 MB
+						GC: 33.23 MB
+						GC: 32.45 MB
+						GC: 33.17 MB
+						GC: 33.41 MB
+						GC: 34.03 MB
+						GC: 34.75 MB
+						GC: 35.67 MB
+						GC: 36.98 MB
+						GC: 36.41 MB
+						GC: 37.01 MB
+						GC: 36.48 MB
+						GC: 38.29 MB
+						GC: 38.11 MB
+						GC: 39.74 MB
+						GC: 38.93 MB
+						GC: 40.49 MB
+						GC: 40.82 MB
+						GC: 40.47 MB
+						GC: 41.71 MB
+						GC: 41.87 MB
+						GC: 42.23 MB
+						GC: 43.30 MB
+						GC: 42.98 MB
+						GC: 43.03 MB
+						GC: 43.00 MB
+						GC: 45.08 MB
+						GC: 43.83 MB
+				Allocated 32 MB (total 2223 MB)
+						GC: 45.30 MB
+						GC: 45.22 MB
+						GC: 47.20 MB
+						GC: 47.32 MB
+						GC: 48.00 MB
+SAT (111542 decisions 43500 conflicts)
+PLAN FOUND: 120 steps
+0 : (move d1 d2 peg2)
+1 : (move d2 d3 peg3)
+2 : (move d1 peg2 d2)
+3 : (move d3 d4 peg2)
+4 : (move d1 d2 d3)
+5 : (move d1 d3 d4)
+6 : (move d2 peg3 d3)
+7 : (move d1 d4 d2)
+8 : (move d4 d5 peg3)
+9 : (move d1 d2 d4)
+10 : (move d2 d3 d5)
+11 : (move d1 d4 d2)
+12 : (move d3 peg2 d4)
+13 : (move d1 d2 d3)
+14 : (move d1 d3 peg2)
+15 : (move d2 d5 d3)
+16 : (move d1 peg2 d2)
+17 : (move d5 d6 peg2)
+18 : (move d5 peg2 d6)
+19 : (move d1 d2 d5)
+20 : (move d1 d5 d2)
+21 : (move d5 d6 peg2)
+22 : (move d1 d2 d5)
+23 : (move d2 d3 d6)
+24 : (move d1 d5 d2)
+25 : (move d3 d4 d5)
+26 : (move d1 d2 d3)
+27 : (move d1 d3 d2)
+28 : (move d3 d5 d4)
+29 : (move d1 d2 d3)
+30 : (move d2 d6 d5)
+31 : (move d1 d3 d2)
+32 : (move d1 d2 d6)
+33 : (move d2 d5 d3)
+34 : (move d1 d6 d2)
+35 : (move d1 d2 d6)
+36 : (move d2 d3 d5)
+37 : (move d1 d6 d2)
+38 : (move d3 d4 d6)
+39 : (move d1 d2 d3)
+40 : (move d1 d3 d2)
+41 : (move d1 d2 d4)
+42 : (move d2 d5 d3)
+43 : (move d1 d4 d2)
+44 : (move d4 peg3 d5)
+45 : (move d1 d2 d4)
+46 : (move d2 d3 peg3)
+47 : (move d1 d4 d2)
+48 : (move d1 d2 d4)
+49 : (move d2 peg3 d3)
+50 : (move d1 d4 d2)
+51 : (move d1 d2 d4)
+52 : (move d2 d3 peg3)
+53 : (move d1 d4 d2)
+54 : (move d3 d6 d4)
+55 : (move d1 d2 d3)
+56 : (move d2 peg3 d6)
+57 : (move d1 d3 d2)
+58 : (move d1 d2 peg3)
+59 : (move d2 d6 d3)
+60 : (move d1 peg3 d2)
+61 : (move d6 peg1 peg3)
+62 : (move d1 d2 d6)
+63 : (move d2 d3 peg1)
+64 : (move d1 d6 d2)
+65 : (move d3 d4 d6)
+66 : (move d1 d2 d3)
+67 : (move d1 d3 d2)
+68 : (move d1 d2 d4)
+69 : (move d2 peg1 d3)
+70 : (move d1 d4 d2)
+71 : (move d1 d2 peg1)
+72 : (move d2 d3 d4)
+73 : (move d1 peg1 d2)
+74 : (move d1 d2 peg1)
+75 : (move d2 d4 d3)
+76 : (move d1 peg1 d2)
+77 : (move d1 d2 d4)
+78 : (move d2 d3 peg1)
+79 : (move d1 d4 d2)
+80 : (move d1 d2 d4)
+81 : (move d2 peg1 d3)
+82 : (move d1 d4 d2)
+83 : (move d4 d5 peg1)
+84 : (move d1 d2 d4)
+85 : (move d2 d3 d5)
+86 : (move d1 d4 d2)
+87 : (move d3 d6 d4)
+88 : (move d1 d2 d3)
+89 : (move d2 d5 d6)
+90 : (move d1 d3 d2)
+91 : (move d1 d2 d5)
+92 : (move d2 d6 d3)
+93 : (move d1 d5 d2)
+94 : (move d5 peg2 d6)
+95 : (move d5 d6 peg2)
+96 : (move d5 peg2 d6)
+97 : (move d1 d2 d5)
+98 : (move d2 d3 peg2)
+99 : (move d1 d5 d2)
+100 : (move d1 d2 d5)
+101 : (move d2 peg2 d3)
+102 : (move d1 d5 d2)
+103 : (move d1 d2 peg2)
+104 : (move d2 d3 d5)
+105 : (move d1 peg2 d2)
+106 : (move d3 d4 peg2)
+107 : (move d1 d2 d3)
+108 : (move d1 d3 d2)
+109 : (move d3 peg2 d4)
+110 : (move d1 d2 d3)
+111 : (move d1 d3 d2)
+112 : (move d1 d2 peg2)
+113 : (move d2 d5 d3)
+114 : (move d1 peg2 d2)
+115 : (move d1 d2 peg2)
+116 : (move d2 d3 d5)
+117 : (move d1 peg2 d2)
+118 : (move d3 d4 peg2)
+119 : (move d3 peg2 d4)
+120 : (move d1 d2 d3)
+121 : (move d2 d5 peg2)
+122 : (move d1 d3 d2)
+123 : (move d1 d2 d5)
+124 : (move d2 peg2 d3)
+125 : (move d1 d5 d2)
+126 : (move d1 d2 d5)
+127 : (move d2 d3 peg2)
+128 : (move d1 d5 d2)
+129 : (move d1 d2 d5)
+130 : (move d2 peg2 d3)
+131 : (move d1 d5 d2)
+132 : (move d1 d2 peg2)
+133 : (move d2 d3 d5)
+134 : (move d1 peg2 d2)
+135 : (move d3 d4 peg2)
+136 : (move d1 d2 d3)
+137 : (move d2 d5 d4)
+138 : (move d1 d3 d2)
+139 : (move d1 d2 d5)
+140 : (move d2 d4 d3)
+141 : (move d1 d5 d2)
+142 : (move d1 d2 d4)
+143 : (move d2 d3 d5)
+144 : (move d1 d4 d2)
+145 : (move d3 peg2 d4)
+146 : (move d1 d2 d3)
+147 : (move d2 d5 peg2)
+148 : (move d1 d3 d2)
+149 : (move d1 d2 d5)
+150 : (move d2 peg2 d3)
+151 : (move d1 d5 d2)
+152 : (move d1 d2 peg2)
+153 : (move d2 d3 d5)
+154 : (move d1 peg2 d2)
+155 : (move d3 d4 peg2)
+156 : (move d3 peg2 d4)
+157 : (move d1 d2 d3)
+158 : (move d1 d3 d2)
+159 : (move d1 d2 peg2)
+160 : (move d2 d5 d3)
+161 : (move d1 peg2 d2)
+162 : (move d1 d2 d5)
+163 : (move d2 d3 peg2)
+164 : (move d1 d5 d2)
+165 : (move d1 d2 d5)
+166 : (move d2 peg2 d3)
+167 : (move d1 d5 d2)
+168 : (move d1 d2 peg2)
+169 : (move d2 d3 d5)
+170 : (move d1 peg2 d2)
+171 : (move d3 d4 peg2)
+172 : (move d1 d2 d3)
+173 : (move d2 d5 d4)
+174 : (move d1 d3 d2)
+175 : (move d1 d2 d3)
+176 : (move d2 d4 d5)
+177 : (move d1 d3 d2)
+178 : (move d1 d2 d4)
+179 : (move d2 d5 d3)
+180 : (move d1 d4 d2)
+181 : (move d4 peg1 d5)
+182 : (move d1 d2 d4)
+183 : (move d2 d3 peg1)
+184 : (move d1 d4 d2)
+185 : (move d3 peg2 d4)
+186 : (move d1 d2 d3)
+187 : (move d2 peg1 peg2)
+188 : (move d1 d3 d2)
+189 : (move d1 d2 peg1)
+190 : (move d2 peg2 d3)
+191 : (move d1 peg1 d2)
+192 actions in the plan.
+total time 100.09 preprocess 0.00 
+total size 2.242 GB
+max. learned clause length 1882
+t val conflicts decisions
+0 0 0 0
+5 0 0 0
+10 0 413 499
+15 0 3221 4239
+20 0 28655 37967
+25 0 68788 95561
+30 -1 289214 415932
+35 -1 260413 386218
+40 -1 234416 366466
+45 -1 211011 346630
+50 -1 189919 322942
+55 -1 170946 302371
+60 -1 153806 284337
+65 -1 138476 265761
+70 -1 124665 247982
+75 -1 112171 229576
+80 -1 100965 216280
+85 -1 90899 202395
+90 -1 81779 187806
+95 -1 73585 170798
+100 -1 66226 162422
+105 -1 59598 147855
+110 -1 53685 138077
+115 -1 48345 124091
+120 1 43500 111542

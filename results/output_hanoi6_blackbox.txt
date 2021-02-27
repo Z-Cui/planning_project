@@ -1,0 +1,956 @@
+blackbox version 45
+command line:  ./blackbox -o domain-hanoi.pddl -f hanoi6.pddl
+
+Begin solver specification
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain-hanoi.pddl
+Loading fact file: hanoi6.pddl
+Problem name: hanoi-6
+Facts loaded.
+time: 1, 51 facts and 6 exclusive pairs.
+time: 2, 54 facts and 17 exclusive pairs.
+time: 3, 58 facts and 35 exclusive pairs.
+time: 4, 63 facts and 63 exclusive pairs.
+time: 5, 69 facts and 103 exclusive pairs.
+time: 6, 76 facts and 157 exclusive pairs.
+Goals reachable at 6 steps but mutually exclusive.
+time: 7, 81 facts and 191 exclusive pairs.
+Goals first reachable in 7 steps.
+1272 nodes created.
+
+####################################################
+goals at time 8:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+** Turning off completeness check **
+Converting graph to wff
+number of action variables = 479
+number of fluent variables = 318
+total number variables = 797
+number clauses = 9575
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+time: 8, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 9:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 719
+number of fluent variables = 429
+total number variables = 1148
+number clauses = 20083
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 8 steps
+time: 9, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 10:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 960
+number of fluent variables = 504
+total number variables = 1464
+number clauses = 34438
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 9 steps
+time: 10, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 11:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 1201
+number of fluent variables = 579
+total number variables = 1780
+number clauses = 48748
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 10 steps
+time: 11, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 12:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 1442
+number of fluent variables = 654
+total number variables = 2096
+number clauses = 63058
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 11 steps
+time: 12, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 13:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 1683
+number of fluent variables = 729
+total number variables = 2412
+number clauses = 77368
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 12 steps
+time: 13, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 14:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 1924
+number of fluent variables = 804
+total number variables = 2728
+number clauses = 91678
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 13 steps
+time: 14, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 15:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 2165
+number of fluent variables = 879
+total number variables = 3044
+number clauses = 105988
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 14 steps
+time: 15, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 16:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 2406
+number of fluent variables = 954
+total number variables = 3360
+number clauses = 120298
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 15 steps
+time: 16, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 17:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 2647
+number of fluent variables = 1029
+total number variables = 3676
+number clauses = 134608
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 16 steps
+time: 17, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 18:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 2888
+number of fluent variables = 1104
+total number variables = 3992
+number clauses = 148918
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 17 steps
+time: 18, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 19:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 3129
+number of fluent variables = 1179
+total number variables = 4308
+number clauses = 163228
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 18 steps
+time: 19, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 20:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 3370
+number of fluent variables = 1254
+total number variables = 4624
+number clauses = 177538
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 19 steps
+time: 20, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 21:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 3611
+number of fluent variables = 1329
+total number variables = 4940
+number clauses = 191848
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 20 steps
+time: 21, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 22:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 3852
+number of fluent variables = 1404
+total number variables = 5256
+number clauses = 206158
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 21 steps
+time: 22, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 23:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 4093
+number of fluent variables = 1479
+total number variables = 5572
+number clauses = 220468
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 22 steps
+time: 23, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 24:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 4334
+number of fluent variables = 1554
+total number variables = 5888
+number clauses = 234778
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 23 steps
+time: 24, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 25:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 4575
+number of fluent variables = 1629
+total number variables = 6204
+number clauses = 249088
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 24 steps
+time: 25, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 26:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 4816
+number of fluent variables = 1704
+total number variables = 6520
+number clauses = 263398
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 25 steps
+time: 26, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 27:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 5057
+number of fluent variables = 1779
+total number variables = 6836
+number clauses = 277708
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 26 steps
+time: 27, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 28:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 5298
+number of fluent variables = 1854
+total number variables = 7152
+number clauses = 292018
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 27 steps
+time: 28, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 29:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 5539
+number of fluent variables = 1929
+total number variables = 7468
+number clauses = 306328
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 28 steps
+time: 29, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 30:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 5780
+number of fluent variables = 2004
+total number variables = 7784
+number clauses = 320638
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 29 steps
+time: 30, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 31:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 6021
+number of fluent variables = 2079
+total number variables = 8100
+number clauses = 334948
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 30 steps
+time: 31, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 32:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 6262
+number of fluent variables = 2154
+total number variables = 8416
+number clauses = 349258
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 31 steps
+time: 32, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 33:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 6503
+number of fluent variables = 2229
+total number variables = 8732
+number clauses = 363568
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 32 steps
+time: 33, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 34:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 6744
+number of fluent variables = 2304
+total number variables = 9048
+number clauses = 377878
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 33 steps
+time: 34, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 35:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 6985
+number of fluent variables = 2379
+total number variables = 9364
+number clauses = 392188
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 34 steps
+time: 35, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 36:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 7226
+number of fluent variables = 2454
+total number variables = 9680
+number clauses = 406498
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 35 steps
+time: 36, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 37:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 7467
+number of fluent variables = 2529
+total number variables = 9996
+number clauses = 420808
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 36 steps
+time: 37, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 38:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 7708
+number of fluent variables = 2604
+total number variables = 10312
+number clauses = 435118
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 37 steps
+time: 38, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 39:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 7949
+number of fluent variables = 2679
+total number variables = 10628
+number clauses = 449428
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 38 steps
+time: 39, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 40:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 8190
+number of fluent variables = 2754
+total number variables = 10944
+number clauses = 463738
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 39 steps
+time: 40, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 41:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 8431
+number of fluent variables = 2829
+total number variables = 11260
+number clauses = 478048
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 40 steps
+time: 41, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 42:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 8672
+number of fluent variables = 2904
+total number variables = 11576
+number clauses = 492358
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 41 steps
+time: 42, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 43:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 8913
+number of fluent variables = 2979
+total number variables = 11892
+number clauses = 506668
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 42 steps
+time: 43, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 44:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 9154
+number of fluent variables = 3054
+total number variables = 12208
+number clauses = 520978
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 43 steps
+time: 44, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 45:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 9395
+number of fluent variables = 3129
+total number variables = 12524
+number clauses = 535288
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 44 steps
+time: 45, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 46:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 9636
+number of fluent variables = 3204
+total number variables = 12840
+number clauses = 549598
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 45 steps
+time: 46, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 47:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 9877
+number of fluent variables = 3279
+total number variables = 13156
+number clauses = 563908
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 46 steps
+time: 47, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 48:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 10118
+number of fluent variables = 3354
+total number variables = 13472
+number clauses = 578218
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 47 steps
+time: 48, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 49:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 10359
+number of fluent variables = 3429
+total number variables = 13788
+number clauses = 592528
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 48 steps
+time: 49, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 50:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 10600
+number of fluent variables = 3504
+total number variables = 14104
+number clauses = 606838
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 49 steps
+time: 50, 81 facts and 181 exclusive pairs.
+328 new nodes added.
+
+####################################################
+goals at time 51:
+  on_d1_d2 on_d2_d3 on_d3_d4 on_d4_d5 on_d5_d6 
+on_d6_peg3 
+
+
+----------------------------------------------------
+Converting graph to wff
+number of action variables = 10841
+number of fluent variables = 3579
+total number variables = 14420
+number clauses = 621148
+Instance unsatisfiable
+Result is Unsat
+Iteration was 0
+
+----------------------------------------------------
+Can't solve in 50 steps
+
+----------------------------------------------------
+NO SOLUTION
+Problem not solvable: no solution exists in alloted time
+    Search halted after 50 steps
+    0 entries in hash table and 0 hits
+    avg set size 0
+----------------------------------------------------
+
+####################################################
+Total elapsed time:   41 minutes, 8 seconds
+Time in milliseconds: 2468095
+
+####################################################
